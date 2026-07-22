@@ -49,9 +49,9 @@ options:
   -c CSV, --csv CSV                        Path to the additional .csv file provided as part of the dataset
   -o OUTPUT, --output OUTPUT               Path to the output model
 ```
-See `train.ipynb` for a broken down version of `train.py`.
+See `train.ipynb` for a broken down version of `train.py` as a Jupyter notebook.
 
-## Training
+## Evaluation
 ```
 evaluate.py [-h] -d1 DATASET_1 -d2 DATASET_2 -c CSV -m MODEL
 
@@ -62,4 +62,4 @@ options:
   -c CSV, --csv CSV                        Path to the additional .csv file provided as part of the dataset
   -m MODEL, --model MODEL                  Path to the model
 ```
-See `evaluation.ipynb` for a broken down version of `evaluation.py`. Note that the evaluation of TRE is based on the input pixel, not microns.
+See `evaluation.ipynb` for a broken down version of `evaluation.py` as a Jupyter notebook. Note that the evaluation of TRE is based on the input pixel, not microns.
