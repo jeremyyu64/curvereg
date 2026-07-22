@@ -1,0 +1,11 @@
+matplotlib==3.11.1
+opencv_contrib_python_headless==4.9.0.80
+opencv_python==4.8.1.78
+openslide_python==1.4.3
+pandas==3.0.3
+Pillow==12.3.0
+scipy==1.18.0
+skimage==0.0
+tensorflow==2.10.0
+voxelmorph==0.2
+numpy==1.23.5
