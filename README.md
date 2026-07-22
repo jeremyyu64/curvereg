@@ -30,13 +30,13 @@ Your dataset should follow the following structure:
     └── ...
 ```
 Note that *all files related to the same slide should have the same basename*, for example for a specific slide, the following naming convention is required:
-- Slides/slide_1.tiff
-- Cutlines/slide_1.png
-- ROIs/slide_1.png
-- Masks/slide_1.png
+- `Slides/slide_1.tiff`
+- `Cutlines/slide_1.png`
+- `ROIs/slide_1.png`
+- `Masks/slide_1.png`
 
-In additional to the dataset, each pair of stain to be matched requires an additional csv file, which contains additional information needed for each pair. 
-See `train.ipynb` or `evaluation.ipynb` for more information, which shows what column is required for which part of the pipeline.
+In additional to the dataset, each pair of stain to be matched requires an additional csv file, which contains additional information needed for each pair of slides. 
+See `train.ipynb` or `evaluation.ipynb` for more information, which shows what columns are required for which part of the pipeline.
 
 ## Training
 ```
