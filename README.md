@@ -63,3 +63,7 @@ options:
   -m MODEL, --model MODEL                  Path to the model
 ```
 See `evaluation.ipynb` for a broken down version of `evaluation.py` as a Jupyter notebook. Note that the evaluation of TRE is based on the input pixel, not microns.
+
+## License
+
+This project is [licensed](LICENSE.md) under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License. © 2026 UHN
